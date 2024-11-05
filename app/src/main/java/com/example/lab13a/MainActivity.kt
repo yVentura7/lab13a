@@ -20,11 +20,11 @@ class MainActivity : ComponentActivity() {
             Lab13aTheme {
                 // Llamar a las pantallas
                   CombinedAnimationsScreen()
-                 // VisibilityAnimationScreen()
+                  VisibilityAnimationScreen()
                  // ColorChangeScreen()
                  // SizePositionAnimationScreen()
                  // AnimatedContentScreen()
-                 //     CombinedAnimationsScreen()
+                 // CombinedAnimationsScreen()
 
             }
         }
