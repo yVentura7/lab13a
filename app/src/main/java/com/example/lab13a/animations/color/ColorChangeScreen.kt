@@ -1,4 +1,4 @@
-package com.example.lab13.animations.color
+package com.example.lab13a.animations.color
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.animation.core.tween
-import com.josuerdx.lab13.viewmodel.ColorChangeViewModel
+import com.example.lab13.viewmodel.ColorChangeViewModel
 
 @Composable
 fun ColorChangeScreen(viewModel: ColorChangeViewModel = viewModel()) {
