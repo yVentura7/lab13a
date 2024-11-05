@@ -1,4 +1,4 @@
-package com.example.lab13.viewmodel
+package com.example.lab13a.viewmodel
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.graphics.Color

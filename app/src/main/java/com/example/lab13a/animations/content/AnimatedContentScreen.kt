@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.ui.graphics.Color
-import com.example.lab13.viewmodel.SizePositionAnimationViewModel
+import com.example.lab13a.viewmodel.SizePositionAnimationViewModel
 
 @Composable
 fun SizePositionAnimationScreen(viewModel: SizePositionAnimationViewModel = viewModel()) {

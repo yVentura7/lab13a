@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.lab13.viewmodel.VisibilityAnimationViewModel
+import com.example.lab13a.viewmodel.VisibilityAnimationViewModel
 
 @Composable
 fun VisibilityAnimationScreen(viewModel: VisibilityAnimationViewModel = viewModel()) {

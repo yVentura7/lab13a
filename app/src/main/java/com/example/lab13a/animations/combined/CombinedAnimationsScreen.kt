@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.lab13.viewmodel.CombinedAnimationsViewModel
+import com.example.lab13a.viewmodel.CombinedAnimationsViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
