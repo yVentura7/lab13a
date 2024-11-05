@@ -1,47 +1,31 @@
-package com.example.lab13a
+package com.example.lab13
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.lab13a.ui.theme.Lab13aTheme
+import androidx.core.view.WindowCompat
+import com.josuerdx.lab13.animations.color.ColorChangeScreen
+import com.josuerdx.lab13.animations.combined.CombinedAnimationsScreen
+import com.josuerdx.lab13.animations.content.AnimatedContentScreen
+import com.josuerdx.lab13.animations.size_position.SizePositionAnimationScreen
+import com.josuerdx.lab13.animations.visibility.VisibilityAnimationScreen
+import com.josuerdx.lab13.ui.theme.Lab13Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        WindowCompat.setDecorFitsSystemWindows(window, true)
         setContent {
             Lab13aTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                // Llamar a las pantallas
+                // CombinedAnimationsScreen()
+                // VisibilityAnimationScreen()
+                // ColorChangeScreen()
+                // SizePositionAnimationScreen()
+                // AnimatedContentScreen()
+                // CombinedAnimationsScreen()
+
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Lab13aTheme {
-        Greeting("Android")
     }
 }
