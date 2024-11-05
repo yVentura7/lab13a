@@ -1,4 +1,4 @@
-package com.example.lab13.animations.size_position
+package com.example.lab13a.animations.size_position
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.background

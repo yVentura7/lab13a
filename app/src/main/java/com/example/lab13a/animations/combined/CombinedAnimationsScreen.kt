@@ -1,4 +1,4 @@
-package com.example.lab13.animations.combined
+package com.example.lab13a.animations.combined
 
 import androidx.compose.animation.*
 import androidx.compose.animation.core.animateDpAsState

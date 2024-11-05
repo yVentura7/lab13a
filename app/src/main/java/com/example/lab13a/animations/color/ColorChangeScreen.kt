@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.animation.core.tween
-import com.example.lab13.viewmodel.ColorChangeViewModel
+import com.example.lab13a.viewmodel.ColorChangeViewModel
 
 @Composable
 fun ColorChangeScreen(viewModel: ColorChangeViewModel = viewModel()) {

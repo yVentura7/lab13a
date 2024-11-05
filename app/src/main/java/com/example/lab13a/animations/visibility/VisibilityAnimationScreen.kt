@@ -1,4 +1,4 @@
-package com.example.lab13.animations.visibility
+package com.example.lab13a.animations.visibility
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
